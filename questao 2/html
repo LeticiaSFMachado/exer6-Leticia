@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="styles.css">
+   
+    <title>EXERC6</title>
+  </head>
+  <body>
+    <h1>Gerador de Lista</h1>
+ 
+    <input type="text" id="number" name="number" placeholder="Número de itens" required>
+   
+    <button type="submit" class="button" onclick="exibirNum()">Gerar lista</button>
+    <div id="numOutput"></div>
+   
+    <script src="script.js"></script>
+  </body>
+</html>
