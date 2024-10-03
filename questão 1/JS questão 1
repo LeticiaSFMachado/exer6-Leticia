@@ -1,0 +1,10 @@
+document.getElementById("button").innerHTML = output
+    const nome = document.getElementById("nome").value;
+    const mensagem = document.getElementById("mensagem");
+
+    if (nome = "") {
+        mensagem.textContent = "Por favor, insira seu nome.";
+    } else {
+        mensagem.textContent = `Olá, + nome + . Seja vem vindo a página do aluno!`;
+    }
+});
