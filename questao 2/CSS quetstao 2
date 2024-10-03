@@ -1,0 +1,30 @@
+body{
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.button{
+ background-color: #5dade2;
+ border: none;
+ cursor: pointer;
+ padding: 5px;
+ border-radius: 5px;
+}
+JAVASCRIPT 
+function exibirNum(){
+  let num = document.getElementById("number").value;
+  let imprime = document.getElementById("numOutput");
+  const numList = parseInt(number);
+ 
+  if (num == ""){
+    imprime.innerHTML = "Por favor, insira um número."
+  } else {
+    for (let i  = 0; i <= num; i++){
+      const itemLista = document.createElement('li');
+     
+      itemLista.textContent = "Letícia - ${i}";
+     
+  }
